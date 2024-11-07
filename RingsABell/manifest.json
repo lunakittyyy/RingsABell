@@ -1,0 +1,11 @@
+{
+  "Id": "RingsABell",
+  "AssemblyPath": "RingsABell.dll",
+  "PackPath": "RingsABell.pck",
+  "Metadata": {
+    "Name": "RingsABell",
+    "Author": "lunakittyyy",
+    "Version": "1.0.0",
+    "Description": "Makes the bell collar in WEBFISHING make cute ringing noises :3 "
+  }
+}

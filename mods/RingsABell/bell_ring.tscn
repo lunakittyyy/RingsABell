@@ -1,0 +1,7 @@
+[gd_scene format=2]
+
+[node name="bell_ring" type="AudioStreamPlayer3D"]
+unit_db = 80.0
+unit_size = 1.8
+max_db = -4.5
+bus = "SFX"

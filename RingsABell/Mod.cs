@@ -1,13 +1,12 @@
 ﻿using GDWeave;
+using RingsABell.Patches;
 
-namespace GDWeave.Sample;
+namespace RingsABell;
 
 public class Mod : IMod {
-    public Config Config;
-
     public Mod(IModInterface modInterface) {
-        this.Config = modInterface.ReadConfig<Config>();
-        modInterface.Logger.Information("Hello, world!");
+        modInterface.RegisterScriptMod(new PlayerInitPatch());
+        modInterface.RegisterScriptMod(new StepPatch());
     }
 
     public void Dispose() {
